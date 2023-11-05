@@ -36,7 +36,7 @@ nav{
 /* header end */
 
 .container{
-    width: 1200px;
+    width: 1150px;
     margin: auto;
 }
 /* hero-section start */
@@ -398,3 +398,68 @@ nav{
 
 
    /* google-add-section end */
+   /* work-with-me-section start */
+   .work-section{
+    background-color: #E0F1F1;
+   }
+.work-section-container{
+    padding: 80px;
+    display: flex;
+
+}
+.work-left{
+    width: 542px;
+    height: 473px;
+    padding: 10px;
+}
+.work-left h3{
+    font-family: "Urbanist", Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #a5babb;
+}
+.work-left h1{
+    color: #2f3349; 
+     font-family: "Urbanist", Sans-serif;
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 60px;
+     margin-bottom: 20px;
+     margin-top: 0;
+    
+}
+.work-left p{
+    font-size: 18px;
+    line-height: 1.6em;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 35px;
+    color: #2f3349;
+    margin-bottom: 35px;
+}
+.work-left button{
+    height: 50px;
+    width: 141px;
+    padding: 15px 25px 15px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Figtree',sans-serif;
+    background-color:#2f3349;
+    color: #fff;
+    border: #2f3349 ;
+    
+  
+    cursor: pointer;
+    
+}
+.work-right{
+    width: 627px;
+    height: 423px;
+    background-image: url(https://bobmeijer.nl/wp-content/uploads/2022/09/circle.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+   /* work-with-me-section end */
