@@ -41,10 +41,12 @@ nav{
 }
 /* hero-section start */
 .hero-section{
-    background-color: #fef3df;
+ background-color: #fef3df;
+ padding: 60px 20px 0px 20px;
+
 }
 .hero-section-container{
-    padding: 80px;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,10 +98,12 @@ nav{
 }
 .hero-section-right{
     width: 590px;
-    height: 400px;
-   background-image: url(/img/Clip-1-1.svg);
-   background-position: bottom center;
-   background-repeat: no-repeat ;
+    height: 520px;
+    background-image: url(/img/Clip-1-1.svg);
+ background-size: 590px 260px;
+ background-position: bottom center;
+ background-repeat: no-repeat ;
+ 
 }
 
 /* hero-section end */
@@ -373,7 +377,7 @@ nav{
 
 }
 .card3 button{
-    height: 15px;
+    height: 47px;
     width: 194px;
     padding: 15px 25px 15px 25px;
     font-size: 16px;
@@ -384,7 +388,6 @@ nav{
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #2F33493B;
-
     text-align: center;
     cursor: pointer;
     transition: all .3s;
@@ -401,15 +404,18 @@ nav{
    /* work-with-me-section start */
    .work-section{
     background-color: #E0F1F1;
+    padding: 60px 20px 0px 20px;
    }
 .work-section-container{
-    padding: 80px;
+
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .work-left{
     width: 542px;
-    height: 473px;
+    height: 245px;
     padding: 10px;
 }
 .work-left h3{
@@ -447,25 +453,24 @@ nav{
     font-family: 'Figtree',sans-serif;
     background-color:#2f3349;
     color: #fff;
-    border: #2f3349 ;
-    
-  
+    border: #2f3349 ; 
     cursor: pointer;
     
 }
 .work-right{
-    width: 627px;
-    height: 423px;
-    background-image: url(https://bobmeijer.nl/wp-content/uploads/2022/09/circle.svg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    padding: 10px;}
+    width: 590px;
+    height: 520px;
+ background-image: url(https://bobmeijer.nl/wp-content/uploads/2022/09/circle.svg);
+ background-size: 590px 260px;
+ background-position: bottom center;
+ background-repeat: no-repeat ;
+}
     
 
    /* work-with-me-section end */
    /* About-me-section start */
    .About-me-section-container{
-    padding: 80px;
+    padding: 0px 0px 60px 0px;
     text-align: center;
  
    }
@@ -485,7 +490,7 @@ nav{
     justify-content: center;
    
 }
-.comment1{
+.comment{
 
     width: 285px;
     height:366px;
@@ -497,12 +502,12 @@ nav{
     margin: 0px 10px 0px 10px;
     padding: 40px 40px 40px 40px;
 }
-.comment1 img{
+.comment img{
     width: 40px;
     height: 28px;
     margin-bottom: 20px;
 }
-.comment1 p{
+.comment p{
     font-size: 15.5px;
     line-height: 1.8em;
     font-family: 'Figtree', sans-serif;
@@ -512,7 +517,7 @@ nav{
    
 
 }
-.comment-wrapper .man1{
+.comment-wrapper .man{
     width: 89px;
     height: 89px;
     border-radius: 50%;
@@ -539,87 +544,56 @@ height: 15px;
 margin: 0;
 
 }
-.comment1:hover{
+.comment:hover{
     box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.08);
 }
    
-.comment-wrapper2{
-    text-align: center;
-        display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.comment-wrapper2 .comment1 img{
- 
-    width: 40px;
-    height: 28px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.comment-wrapper2 .comment{
-        width: 285px;
-    height:366px;
-    background-color:#ffffff;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #f5f5f5;
-    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 0px 10px 0px 10px;
-    padding: 40px 40px 40px 40px;
-}
-.comment-wrapper2 .colon-image{
-     width: 40px;
-    height: 28px;
-    margin-bottom: 20px;
-
-
-}
-.comment p{
-    font-size: 15.5px;
-    line-height: 1.8em;
-    font-family: 'Figtree', sans-serif;
-    font-weight: 400;
-    color: #2f3349;
-   margin: 0px 0px 35px;
-}
-.comment-wrapper2 .man2{
-     width: 89px;
-    height: 89px;
-    border-radius: 50%;
-    border:5px solid #fff;
-    margin-bottom: 20px;
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
-}
-.comment-wrapper2 .comment .h4-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 5px;
-}
-.comment-wrapper2 .comment .h4-icon h4{
-  
-        margin: 0;
-        font-size: 17px;
-        font-weight: 700;
-        font-family: 'Figtree',sans-serif;
-        color:#2f3349;
-    
-}
-.comment-wrapper2 .comment :hover{
-
-        box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.08);
-   
-}
-
-
-
-
-
-
 
 
 
 
    /* About-me-section end */
+   /* Ready-to-grow-section start */
+   .ready-section{
+    background-color: #fef3df;
+    
+ 
+ 
+   }
+ .ready-section-container{
+    text-align: center;
+    padding: 80px;
+ }
+ .ready-section-container h2{
+    color: #2f3349;
+ font-family: "Urbanist", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+ }
+.ready-section-container p{
+    font-size: 18px;
+    line-height: 1.6em;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 30px;
+    color: #2f3349;
+}
+.ready-section-container button{
+    height: 50px;
+    width: 141px;
+    padding: 15px 25px 15px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Figtree',sans-serif;
+    background-color:#2f3349;
+    color: #fff;
+    border: #2f3349 ; 
+    cursor: pointer;
+}
+
+
+
+      /* Ready-to-grow-section end */
